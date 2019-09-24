@@ -1,0 +1,19 @@
+.header{
+    padding: 30px 0px;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.header__header-column .header__icon{
+    font-size: 25px;
+} 
+
+.header__title{
+    font-family: sans-serif;
+    font-size: 27px;
+    font-weight:600;
+}
+
+.header__icon{
+    padding: 0px 0px 0px 20px;
+}

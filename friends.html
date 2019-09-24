@@ -8,119 +8,136 @@
     <title>Friends</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/all.css"
         integrity="sha384-wxqG4glGB3nlqX0bi23nmgwCSjWIW13BdLUEYC4VIMehfbcro/ATkyDsF/AbIOVe" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/styles.css" />
 </head>
 
 <body>
-    <div class="status-bar">
-        <div class="status-bar__column">
-            <span class="status-bar__telecome">SKT</span>
-            <span class="status-bar__clock">7:28</span>
-            <i class="fas fa-sms"></i>
+    <div class="phone">
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span class="status-bar__telecome">SKT</span>
+                <span class="status-bar__clock">7:28</span>
+                <i class="fas fa-sms"></i>
+            </div>
+            <div class="status-bar__column">
+                <i class="fas fa-volume-mute"></i>
+                <i class="fas fa-wifi"></i>
+                <i calss="fas fa-clock"></i>
+                <span class="status-bar__battery-level">31%</span>
+                <i class="fas fa-battery-quarter"></i>
+            </div>
         </div>
-        <div class="status-bar__column">
-            <i class="fas fa-volume-mute"></i>
-            <i class="fas fa-wifi"></i>
-            <i calss="fas fa-clock"></i>
-            <span class="status-bar__battery-level">31%</span>
-            <i class="fas fa-battery-quarter"></i>
-        </div>
-    </div>
-    <header class=="header">
-        <div class="header__header-column">
-            <h1 class="header__title">Friends</h1>
-        </div>
-        <div class="header__header-column">
-            <span class="header__icon">
-                <i class="fas fa-search"></i>
-            </span>
-            <span class="header__icon">
-                <i class="fas fa-user-plus"></i>
-            </span>
-            <span class="header__icon">
-                <i class="fas fa-music"></i>
-            </span>
-            <span class="header__icon">
-                <i class="fas fa-cog"></i>
-            </span>
-        </div>
-    </header>
-    <main class="main-me">
-        <img class="main-me__profile-pic">
-        <div class="main-me__title">서성목 :)</div>
-    </main>
-    <section class="friends-with-birthdays">Friends with Birthdays</section>
-    <ul class="birthdays">
-        <li class="birthdays__list">
-            <img class="profile-pic">
-            <div class="profile__title">
-                <span class="name">윤공주 :)</span>
-                <i class="fas fa-birthday-cake"></i>
+        <header class="header">
+            <div class="header__header-column">
+                <div class="header__title">Friends</div>
             </div>
-            <div class="gift-shop__box">
-                <span class="gift-shop__title">Gift Shop</span>
-                <i class="fas fa-gift"></i>
-            </div>
-        </li>
-        <li class="birthdays__list">
-            <img class="profile-pic">
-            <div class="profile__title">
-                <span class="name">View more birthdays</span>
-            </div>
-            <a href="#" class="view-more">9 ></a>
-        </li>
-    </ul>
-    </section>
-    <section class="favorite-friends">Favorites</section>
-    <ul class="favorites">
-        <li class="favorites__list">
-            <img class="profile-pic">
-            <div class="profile__title">
-                <span class="name">누난가싶다-_-</span>
-                <i class="far fa-heart"></i>
-            </div>
-        </li>
-        <li class="favorites__list">
-            <img class="profile-pic">
-            <div class="profile__title">
-                <span class="name">동섭이형</span>
-                <span class="slogan">I will either find a way or make one</span>
-            </div>
-        </li>
-        <li class="favorites__list">
-            <img class="profile-pic">
-            <div class="profile__title">
-                <span class="name">아버지:)</span>
-            </div>
-        </li>
-        <li class="favorites__list">
-            <img class="profile-pic">
-            <div class="profile__title">
-                <span class="name">장모님:)</span>
-            </div>
-        </li>
-        <li class="favorites__list">
-            <img class="profile-pic">
-            <div class="profile__title">
-                <span class="name">laughing stone</span>
-                <i class="far fa-heart"></i>
-            </div>
-        </li>
-        <li class="favorites__list">
-            <img class="profile-pic">
-            <div class="profile__title">
-                <span class="name">윤공주:)</span>
-                <span class="slogan">always have, always will
-                    <i class="far fa-heart"></i>
+            <div class="header__header-column">
+                <span class="header__icon">
+                    <a href="search.html">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </span>
+                <span class="header__icon">
+                    <i class="fas fa-user-plus"></i>
+                </span>
+                <span class="header__icon">
+                    <i class="fas fa-music"></i>
+                </span>
+                <span class="header__icon">
+                    <a href="settings.html">
+                        <i class="fas fa-cog"></i>
+                    </a>
                 </span>
             </div>
-        </li>
-    </ul>
-    <nav class="nav-bar">
-        <i class="far fa-user"></i>
-        <i class="far fa-comment"></i>
-        <i class="fas fa-search"></i>
-        <i class="fas fa-ellipsis-h"></i>
-    </nav>
+        </header>
+        <main class="main-me">
+            <img class="main-me__profile-pic">
+            <div class="main-me__title">서성목 :)</div>
+        </main>
+        <section class="friends-with-birthdays">Friends with Birthdays</section>
+        <ul class="birthdays">
+            <li class="birthdays__list">
+                <img class="profile-pic">
+                <div class="profile__title">
+                    <span class="name">윤공주 :)</span>
+                    <i class="fas fa-birthday-cake"></i>
+                </div>
+                <div class="gift-shop__box">
+                    <span class="gift-shop__title">Gift Shop</span>
+                    <i class="fas fa-gift"></i>
+                </div>
+            </li>
+            <li class="birthdays__list">
+                <img class="profile-pic">
+                <div class="profile__title">
+                    <span class="name">View more birthdays</span>
+                </div>
+                <a href="#" class="view-more">9 ></a>
+            </li>
+        </ul>
+        </section>
+        <section class="favorite-friends">Favorites</section>
+        <ul class="favorites">
+            <li class="favorites__list">
+                <img class="profile-pic">
+                <div class="profile__title">
+                    <span class="name">누난가싶다-_-</span>
+                    <i class="far fa-heart"></i>
+                </div>
+            </li>
+            <li class="favorites__list">
+                <img class="profile-pic">
+                <div class="profile__title">
+                    <span class="name">동섭이형</span>
+                    <span class="slogan">I will either find a way or make one</span>
+                </div>
+            </li>
+            <li class="favorites__list">
+                <img class="profile-pic">
+                <div class="profile__title">
+                    <span class="name">아버지:)</span>
+                </div>
+            </li>
+            <li class="favorites__list">
+                <img class="profile-pic">
+                <div class="profile__title">
+                    <span class="name">장모님:)</span>
+                </div>
+            </li>
+            <li class="favorites__list">
+                <img class="profile-pic">
+                <div class="profile__title">
+                    <span class="name">laughing stone</span>
+                    <i class="far fa-heart"></i>
+                </div>
+            </li>
+            <li class="favorites__list">
+                <img class="profile-pic">
+                <div class="profile__title">
+                    <span class="name">윤공주:)</span>
+                    <span class="slogan">always have, always will
+                        <i class="far fa-heart"></i>
+                    </span>
+                </div>
+            </li>
+        </ul>
+        <nav class="nav-bar">
+            <div class="nav-bar__box">
+                <a href="friends.html">
+                    <i class="far fa-user"></i>
+                </a>
+                <a href="index.html">
+                    <i class="fas fa-comment"></i>
+                </a>
+                <a href="search.html">
+                    <i class="fas fa-search"></i>
+                </a>
+                <a href="more.html">
+                    <i class="fas fa-ellipsis-h"></i>
+                </a>
+            </div>
+        </nav>
+    </div>
 </body>
 
 </html>
